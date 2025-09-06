@@ -102,3 +102,11 @@ const database = {
         wish: "catching a foul ball at a Major League game!"
     }]
 }
+
+export const getCelebrities = () => {
+    return structuredClone(database.celebrities)
+}
+
+export const getChildren = () => {
+    return structuredClone(database.children)
+}
